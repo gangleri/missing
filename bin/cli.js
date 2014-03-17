@@ -10,7 +10,7 @@ childProc.exec('ls',{cwd: './node_modules'}, function(err, stdout) {
     process.exit(1);
   }
 
-  var folders = stdout.split('\n').forEach();
+  var folders = stdout.split('\n');
   var pkg = require('./package.json');
   var dependencies = pkg.dependencies.concat(pkg.devDependencies);
   var missing = [];
