@@ -31,6 +31,7 @@ childProc.exec('ls',{cwd: './node_modules'}, function(err, stdout) {
     }
     process.exit(1);
   } else {
+    console.log('DONE: all modules are in package.json');
     process.exit(0);
   }
 
