@@ -1,13 +1,13 @@
 {
-  "name": "dependency-checker",
+  "name": "missing",
   "version": "0.0.1",
   "description": "Check that all modules in node_modules are included in package.json",
   "bin": {
-    "dependency-check": "./bin/cli.js"
+    "missing": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gangleri/dependency-checker.git"
+    "url": "git://github.com/gangleri/missing.git"
   },
   "keywords": [
     "modules",
@@ -18,7 +18,7 @@
   "author": "Alan Bradley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gangleri/dependency-checker/issues"
+    "url": "https://github.com/gangleri/missing/issues"
   },
-  "homepage": "https://github.com/gangleri/dependency-checker"
+  "homepage": "https://github.com/gangleri/missing"
 }
