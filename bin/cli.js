@@ -5,6 +5,8 @@
 var childProc = require('child_process');
 var path = require('path');
 
+console.log('Checking all modules have been added to package.json');
+
 childProc.exec('ls',{cwd: './node_modules'}, function(err, stdout) {
   if(err) {
     console.log('Error: ' + err);
