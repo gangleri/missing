@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git://github.com/gangleri/missing.git"
   },
+  "files": [
+    "bin",
+    "LICENCE"
+  ],
   "keywords": [
     "modules",
     "package.json",
